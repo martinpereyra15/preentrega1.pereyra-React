@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import styles from "./NavBar.module.css"
 import CartWidget from "../CartWidget/CartWidget"
@@ -14,7 +15,7 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className={`navbar-nav ${styles.ul}`}>
               <li className="nav-item">
-                 <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+                 <a className="nav-link active" ariaCurrent="page" href="#">Inicio</a>
               </li>
               <li className={`nav-item ${styles.icon}`}>
                  <span>
